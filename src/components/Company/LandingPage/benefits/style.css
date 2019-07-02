@@ -1,0 +1,101 @@
+.backgroundBenifits {
+  background-color: #ffff;
+  background-image: url("../../../../assets/images/benifitsBackground@3x.png");
+  /* background-position: top; */
+  background-position: 0 -120px;
+  background-repeat: no-repeat;
+  /*Prevent showing multiple background images*/
+  background-size: 100% 115%;
+  background-attachment: fixed;
+}
+
+.benifitImage {
+  margin-bottom: 7%;
+}
+
+.benifitsTitle {
+  display: inline;
+  position: relative;
+  letter-spacing: -5px;
+  font-family: Poppins;
+  font-size: 36px;
+  color: #017684;
+  letter-spacing: 4.12px;
+  text-align: center;
+  text-shadow: 2px 2px 3px #02cbe2;
+}
+
+.leftIcon {
+  margin-left: 10%;
+}
+
+.rightIcon {
+  margin-right: 10%;
+}
+
+.benifitFooterTitle {
+  font-family: HiraginoSans-W3;
+  font-size: 20px;
+  color: #686b6b;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.benifitHeadingTitle {
+  font-family: HiraginoSans-W3;
+  font-size: 20px;
+  color: #646666;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.benifitsRow {
+  /* padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%; */
+  padding: 30px 10px 5px 50px;
+}
+
+.main {
+  width: 100%;
+  height: 100px;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+.containerBenifits {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.rotateImage {
+  /* border-radius: 50%; */
+  -webkit-transition: -webkit-transform 1.5s ease-in-out;
+  transition: transform 1.5s ease-in-out;
+}
+
+.rotateImage:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.zoominAnimation:hover {
+  transform: scale(1.2);
+}
+
+.benifitTop {
+  margin-right: 25%;
+}
+
+.benifitBottom {
+  margin-left: 30%;
+}

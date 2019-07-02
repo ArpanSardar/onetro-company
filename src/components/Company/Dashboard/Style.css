@@ -1,0 +1,568 @@
+body {
+}
+.nav-link {
+    color: #504F4F;
+    font-size: 15px;
+    text-shadow: 0px 0px 1px darkgray;
+}
+
+.leftNavigation {
+    height: 100%;
+    box-shadow: 1px -1px 1px -1px rgb(224, 224, 224);
+}
+
+.navBarText {
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 13px;
+    letter-spacing: -0.12px;
+    top: 5px;
+    color: #333333;
+}
+
+.menubarHeading {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* font-family: Avenir-Heavy; */
+    font-family: HiraginoSans-W4;
+    color: #BCBCBC;
+    letter-spacing: 0;
+}
+
+.nav-pills > a.active div {
+    /*background-color: green;*/
+    color: black;
+}
+
+.nav-pills > .nav-link.active {
+    background-color: #ffff;
+}
+
+    .nav-pills > .nav-link.active div {
+        color: #0A98A9;
+        /* text-shadow: 0 0 1px bla; */
+    }
+
+        .nav-pills > .nav-link.active div > i {
+            color: #0A98A9;
+            /* border-right: 1px solid red; */
+            /* padding-right: 5px; */
+        }
+
+.post-content {
+    /* margin-left: 10px; */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: .1px solid rgb(238, 236, 236);
+    /* width: 1000px; */
+
+    /* box-shadow: 0px 0px 2px gray; */
+
+}
+.companyProfileHeader{
+    margin-top: 20px;
+}
+.companyProfileHeaderTitle{
+    margin-top: 30px;
+}
+
+.companyProfileSaveButton{
+    /* margin-right: auto; */
+    margin-left: 0px;
+    width: 200px;
+}
+.companyProfileEditButton{
+    width: 200px;
+    float: right;
+}
+.editButtonHeader {
+    margin-right: 10px;
+}
+.textarea{
+    width:100%;
+}
+    /* .post-content:hover {
+        background-color: #e8e8e8;
+    } */
+    .dashboardNavIcon:hover {
+        color: #0A98A9;
+    }
+    .post-content-body {
+        margin-left: 5px;
+    }
+    .post-content-body p{
+        font-size:smaller;
+        margin-bottom: 0px;
+    }
+    .post-content h6 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+   
+    .postingLogo {
+        margin: 10px 10px 10px 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 4px darkgray;
+    }
+.postinglocationtext {
+    margin-left: 15px;
+    line-height:20px;
+}
+.postinglocationicon{
+    font-size:small;
+}
+
+.dashBoardContainer{
+  margin-top: 10px;
+}
+
+.planExpiryDate {
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 12px;
+    color: #F35959;
+    letter-spacing: 0;
+}
+
+.planButton {
+    border: 1px solid #0A98A9;
+    border-radius: 4px;
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 16px;
+    color: #0A98A9;
+    letter-spacing: 0;
+}
+
+.navBarContactUs {
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0;    
+}
+
+.noItemIcon {
+    height: 70%;
+    width: 70%;
+    /* padding: 10%; */
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 15%;
+    /* margin-right: auto; */
+}
+
+.noJobTitle {
+    /* font-family: Avenir-Heavy; */
+    font-family: HiraginoSans-W4;
+    font-size: 18px;
+    color: #0B7480;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 3%;    
+}
+
+.noJobDescription {
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 12px;
+    color: #787878;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.noJobButton {
+    background: #0A98A9;
+    border: 1px solid #0A98A9;
+    border-radius: 4px;
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20%; */
+}
+
+.noJobButtonSection {
+    color: #FFFFFF;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBarButton{
+    margin-left: 0px ;
+    padding: 0%;
+}
+
+.planButton{
+    width: 290px;
+}
+
+.fileInput{
+    background: #EBEBEB;
+    border-radius: 4px;
+}
+
+.companyDetails{
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 13px;
+    color: #333333;
+    letter-spacing: -0.13px;
+}
+
+.companyDetailsTitle{
+    /* font-family: Avenir-Heavy; */
+    font-family: HiraginoSans-W3;
+    /* font-size: 25px; */
+    color: #333333;
+    letter-spacing: -0.13px;
+}
+
+.editButton{
+    background: #0A98A9;
+    border: 1px solid #0A98A9;
+    border-radius: 4px;
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.fileChoose{
+background: #EBEBEB;
+border-radius: 4px;
+}
+
+.jobTitle{
+    /* font-family: Avenir-Heavy; */
+    font-family: HiraginoSans-W4;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0;    
+}
+
+.jobCategory{
+    /* font-family: Avenir-Roman; */
+    font-family: HiraginoSans-W3;
+    font-size: 13px;
+    color: #B0B0B0;
+    letter-spacing: 0.06px;
+}
+
+.jobPostingLocation{
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 4px;
+}
+
+.jobDescription{
+    /* font-family: Avenir-Roman; */
+    font-family: HiraginoSans-W3;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.jobPostingEditIcon{
+    color: lightgray;
+}
+
+.editJobInputText{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.skills {
+    display: inline-block;
+    text-align: center;
+    color: rgb(11, 11, 12);
+    margin: 1px 1px 1px 1px;
+    padding: 2px 4px 2px 4px;
+    /* font-family: arial; */
+    /* font-family: Avenir-Medium; */
+    font-family: HiraginoSans-W3;
+    font-size: 12px;
+    background-color:skyblue;
+    border-radius: 5px 5px;
+    width: auto;
+    height: auto;
+
+  }
+  
+  
+  .tdCandidateJobTitle{
+    width: 20%;
+}
+.tdCandidateShortlisted{
+    width: 20%;
+}
+.shortListedlocationtext {
+    line-height:20px;
+}
+.shortListedlocationicon{
+    font-size:small;
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 4px;
+}
+.shortListedJobProfile{
+    vertical-align: middle;
+    font-size: 12px;
+    display: inline;
+    font-family: Avenir-Medium;
+}
+.viewDetails {
+    width: 160px;
+    content:"Shortlisted";
+}
+
+.shortListedAction{
+    width: 160px;
+    content:"Shortlisted"
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+.doneIcon{
+    /* position: relative;
+    top: 2px; */
+}
+.shortListedAction:hover span {display:none}
+.shortListedAction:hover i {display:none}
+.shortListedAction:hover:before {content:"リストから削除"}
+
+.shortlistButton{
+    /* padding: 5%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileIcon{
+    /* margin: 10px 10px 10px 10px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px darkgray;    
+}
+
+.shortlistedName{
+    /* font-family: Avenir-Roman; */
+    font-family: HiraginoSans-W3;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0.21px;    
+}
+
+.profileCard{
+    width: 100%;
+    height:auto;
+    padding:10px 10px 10px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    /* box-shadow: 0px 0px 1px lightgray; */
+    overflow: auto;
+}
+.profileCard:hover{
+    /* box-shadow: 0px 0px 3px gray; */
+
+}
+
+.profileCard-profileImage{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.profileCard-profileImage img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 60px;
+    width:60px
+}
+
+.profileCard-details{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profileCard-details__name{
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #585d5e;
+}
+
+.profileCard-details__location{
+    text-align: left;
+    width:100%;
+    display: block;
+    color: #969a9b;
+    font-size: 10px;
+}
+
+.profileCard-details__location i{
+    vertical-align: bottom;   
+    font-size: 15px;
+    display: inline-block;
+    color: #969a9b;
+}
+
+ 
+
+.profileCard-details__skills{
+    text-align: left;
+    height:auto;
+    /* max-width: 400px; */
+    margin-right: 5px;
+    /* word-wrap: break-word; */
+    /* overflow-wrap: break-word; */
+    overflow: auto;
+    /* overflow-wrap: inherit; */
+}
+.profileCard-details__skills a{
+    text-align: center;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 4px;  
+    padding-top: 4px; 
+    margin: 2px 2px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-size: 11px;
+}
+.profileCard-details__skills a:hover {
+    box-shadow: 1px 1px 10px gray;
+  }
+.tdCandidateName{
+    width: 60%;
+    /* width: 100%; */
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.shortlistTableName{
+    margin-left: 15%;
+}
+
+.swal-title {
+    font-size: 20px;
+    font-family: HiraginoSans-W3;
+  }
+
+  .swal-text {
+    font-size: 15px;
+    font-family: HiraginoSans-W3;
+  }
+
+  .loader {
+    height: 4px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #ddd;
+  }
+  .loader:before{
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: #2980b9;
+    animation: loading 2s linear infinite;
+  }
+  
+  @keyframes loading {
+      from {left: -200px; width: 30%;}
+      50% {width: 30%;}
+      70% {width: 70%;}
+      80% { left: 50%;}
+      95% {left: 120%;}
+      to {left: 100%;}
+  }
+
+  .dashborad-img-companyLogo{
+    display: inline-block;
+    margin: 5px;
+  }
+  .dashborad-img-editCompanyLogo{
+    display: inline-block;
+    margin: 5px 10px;
+  }
+  
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btnUpload {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width:150px;
+    height: 40px;
+    padding: 0px;
+    cursor: pointer;
+  }
+  .img-box-currentLogo{
+    height:105px;
+    width:105px;
+    /* border: 1px solid black; */
+    display: block;
+    padding: 2px;   
+}
+
+.img-box-currentLogo img{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .img-box-newLogo{
+    height:106px;
+    width:106px;
+    border: 1px dashed lightgray;
+    display: block;
+    padding: 2px;
+  }
+  .img-box-newLogo img{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    vertical-align: middle;
+  }

@@ -1,0 +1,52 @@
+
+
+.headerDashBoard {
+  /* padding: 10px 16px; */
+  background: #fff;
+  color: #f1f1f1;
+  box-shadow: 0px 1px 2px #d3d2d2;
+  z-index: 3;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky {
+  z-index: 3;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+} 
+
+.headerLogo {
+  width: 20%;
+}
+
+.topBar img{
+  /* margin: 5% 10%; */
+  max-height: 32px;
+  max-width: 200px;
+  float: left;
+}
+
+.headerText {
+font-family: Avenir-Medium;
+font-size: 20px;
+color: #0B7480;
+letter-spacing: 0.09px;
+}
+
+.companyNameonHeader {
+  color: #0B7480;
+  margin-top: 15px;
+}
+
+.logoIcon{
+  margin-right: 10px;
+}

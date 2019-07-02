@@ -1,0 +1,236 @@
+.sidebarRightBottom {
+  margin: 6px 6px 6px 0px;
+  padding: 8px 3px 3px 3px;
+  min-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: .5px solid rgb(235, 233, 233);;
+  border-radius: 5px 5px;
+  background-color: white;
+  font-size: x-small;
+  color: silver;
+  font-family: Avenir-Roman;
+}
+.sidebarRightBottom h6 {
+  color: gray;
+}
+
+.sidebarRight {
+  margin: 6px 6px 6px 0px;
+  padding: 8px 3px 3px 3px;
+  min-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: .5px solid rgb(235, 233, 233);;
+  border-radius: 5px 5px;
+  background-color: white;
+  font-size:x-small;
+  color: silver;
+}
+
+.boldNumbers{
+  font-size: small;
+}
+.sidebarRight i {
+  color: gray;
+}
+/* i:hover {
+  color: skyblue;
+  text-shadow: 1px 1px 20px gray;
+} */
+.sidebarRight span {
+  color: gray;
+}
+.sidebarRight p {
+  color: silver;
+}
+
+
+.certificate {
+  margin: 6px 6px 6px 15px;
+  padding: 3px 3px 3px 3px;
+  min-height: 100px;
+  /*min-width:100px;*/
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgb(235, 233, 233);;
+  border-radius: 5px 5px;
+  background-color: #f1f1f1;
+}
+
+.internship {
+  margin: 6px 6px 6px 15px;
+  /*padding: 4px 4px 4px 4px;*/
+  min-height: 100px;
+  /*min-width:100px;*/
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgb(235, 233, 233);;
+  border-radius: 5px 5px;
+  background-color: #f1f1f1;
+}
+.expertise {
+  margin: 6px 6px 6px 15px;
+  padding: 3px 3px 3px 3px;
+  min-height: 100px;
+  /*min-width:100px;*/
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgb(235, 233, 233);;
+  border-radius: 5px 5px;
+  background-color: #f1f1f1;
+}
+
+button {
+  display: block;
+  margin: 6px 6px 6px 0px;
+  padding: 3px 3px 3px 3px;
+  border-radius: 5px 5px;
+  font-size: 200px;
+}
+
+button a{
+  /* display: block;
+  margin: 6px 6px 6px 0px;
+  padding: 3px 3px 3px 3px;
+  border-radius: 5px 5px; */
+  font-size: 13px;
+}
+
+.introVideo {
+  /*margin: 6px 6px 6px 6px;*/
+  /* height: auto; */
+  /*border-radius: 5px 5px;*/
+  /*height: 400px;*/
+  position: relative;
+  width: 100%;
+  /* margin: 4px 4px 4px 4px; */
+  margin-top: 2%;
+  height:360px ;
+  display: inline-block;
+
+}
+.chipIntroVideo {
+  margin: 6px 0px 2px 2px;
+  display: block;
+  /* padding: 10px 0px 10px 10px; */
+  height: 388px;
+  font-size: 18px;
+  border: .5px solid rgb(235, 233, 233);
+  border-radius: 5px 5px;
+  background-color: white;
+  position: relative;
+}
+
+/*Styles form skillSet*/
+
+.skillSetLocation{
+  font-size:12px;
+  color:gray;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 2px;
+}
+
+.closebtn {
+  padding-left: 10px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.locationCandidate{
+  float: right;
+}
+
+
+.skills {
+  display: inline-block;
+  text-align: center;
+  color: rgb(11, 11, 12);
+  margin: 1px 1px 1px 1px;
+  padding: 2px 4px 2px 4px;
+  /* font-family: arial; */
+  font-family: Avenir-Medium;
+  font-size: 12px;
+  background-color:skyblue;
+  border-radius: 5px 5px;
+  width: auto;
+  height: auto;
+  
+}
+.skills:hover {
+  box-shadow: 1px 1px 10px gray;
+}
+
+.chip {
+  margin: 2px 2px 2px 2px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  height: auto;
+  font-size: 18px;
+  border: .5px solid rgb(235, 233, 233);;
+  border-radius: 5px 5px;
+  background-color: white;
+}
+  .chip img {
+      /*margin: 0 5px 0 5px;*/
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+  }
+  .chip h5{
+      color:dimgray;
+      font-size:large;
+      margin: 1px 1px 1px 1px;
+  }
+  /*Profile details*/
+
+  .profileDetailsTabLink{
+      font-size:small;
+  }
+.description {
+  font-size: 12px;
+  line-height: 16px;
+  /* font-family: Arial; */
+  font-family: Avenir-Roman;
+  padding: 5px 1px 0px 5px;
+}
+.workExperience-Title {
+  font-size: large;
+  color: dimgray;
+  font-weight: 500;
+  padding: 5px 1px 0px 5px;
+}
+.workExperience-CpmpanyName {
+  font-size: small;
+  color: silver;
+  font-weight: 500;
+  padding: 1px 1px 0px 5px;
+}
+
+.skill {
+  margin: 2%;
+  margin-right: 5%;
+}
+
+.expertiseStyle {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.candidateDetailsTab {
+  margin-top: 5%;
+}
+
+.swal-title {
+  font-size: 20px;
+  font-family: HiraginoSans-W3;
+}
+
+.swal-text {
+  font-size: 15px;
+  font-family: HiraginoSans-W3;
+}

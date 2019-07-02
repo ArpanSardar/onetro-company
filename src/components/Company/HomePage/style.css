@@ -1,0 +1,76 @@
+.rootContainer {
+  margin: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.expandListContainer {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
+  overflow: hidden;
+  background-color: white;
+}
+.gridList-loading {
+  width: 500;
+  height: 450;
+}
+.profile-loading {
+  margin: 20px 0px 0px 0px;
+}
+.img-box-loading {
+  display: block;
+  position: relative;
+  height:150px;
+
+}
+.name-loading{
+display: block;
+width:100%;
+height: 12px;
+margin: 5px 0px 0px 0px;
+}
+.like-loading{
+  display: block;
+  width:30%;
+  height: 12px;
+  margin: 5px 0px 0px 0px;
+
+}
+.skill-loading{
+  display: block;
+width:100%;
+height: 12px;
+margin: 5px 0px 0px 0px;
+
+}
+.address-loading{
+  display: block;
+  width:50%;
+  height: 12px;
+  margin: 5px 0px 0px 0px;
+
+}
+.img-box-loading,
+.name-loading,
+.like-loading,
+.skill-loading,
+.address-loading{
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: backgroundAnimation;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  position: relative;
+}
+@keyframes backgroundAnimation {
+  0% {
+      background-position: -468px 0
+  }
+
+  100% {
+      background-position: 468px 0
+  }
+}

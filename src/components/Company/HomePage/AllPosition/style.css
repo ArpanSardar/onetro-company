@@ -1,0 +1,40 @@
+.root{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: black;
+}
+
+#singleLineGridList{
+  flex-wrap: nowrap;
+  transform: translateZ(0);
+}
+
+.titleBar{
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 30%, rgba(0,0,0,0) 40%)
+}
+
+.title {
+  color: white;
+}
+
+.headerSubDiv{
+  width: 100%;
+
+}
+.homeSubHeader{
+  font-family: Avenir-Medium;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: -0.73px;
+  margin-top: 2%;
+  /* margin-bottom: 2%; */
+  /* float: left; */
+  text-align: left;
+}
+
+.separator{
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
